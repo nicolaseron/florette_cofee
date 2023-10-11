@@ -1,0 +1,107 @@
+/* Header  */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--header-footer-bg);
+  height: 150px;
+}
+header ul {
+  display: flex;
+  flex-direction: column;
+}
+header ul li {
+  margin: 0.5rem;
+  text-align: center;
+}
+header ul li a {
+  padding: 0.4rem;
+}
+/* Presentation */
+.presentation {
+  height: 700px;
+}
+.presentation h1 {
+  padding: 2rem 0;
+  text-align: center;
+  color: white;
+}
+.presentation p {
+  padding-top: 0rem;
+}
+.presentation a {
+  margin: 2rem;
+}
+/* value proposition */
+
+.value-proposition {
+  display: flex;
+  margin: 1rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.coffee .fa-mug-hot {
+  font-size: 3rem;
+}
+.clock .fa-clock {
+  font-size: 3rem;
+}
+.value-proposition .title {
+  padding: 1rem;
+}
+.value-proposition p {
+  padding: 1rem auto;
+  line-height: 1.7rem;
+}
+.p-details {
+  margin-top: 1.5rem;
+}
+.vp-img {
+  margin-top: 1rem;
+  background-image: url(../Image/photo-1493925410384-84f842e616fb.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+/* where */
+.where-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.where-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.where-content img {
+  width: 20rem;
+  height: 20rem;
+  margin: 2rem auto;
+}
+.content-txt {
+  font-size: 1rem;
+  margin: auto;
+  text-align: center;
+}
+.where-content h2 {
+  padding: 2rem;
+}
+/* contact */
+.formulaire form {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem auto;
+  width: 300px;
+  flex-grow: 1;
+}
+
+form .separator {
+  margin: 10px 0;
+  height: 2px;
+  width: 200px;
+  background: #111;
+}

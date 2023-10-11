@@ -1,0 +1,64 @@
+/* header */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--header-footer-bg);
+  height: 110px;
+}
+header a {
+  padding: 0.8rem 1rem;
+  letter-spacing: 2px;
+}
+.value-proposition p {
+  padding: 1rem 1rem;
+  line-height: 2rem;
+}
+/* value-proposition */
+.vp-img {
+  height: 300px;
+}
+.vp a {
+  margin: 2rem 0;
+}
+.vp p {
+  text-align: center;
+  padding: 0 3rem;
+}
+/* where */
+
+.where-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.where-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.where-content img {
+  width: 30rem;
+  height: 25rem;
+  margin: auto auto;
+}
+.where-content h2 {
+  margin: auto;
+  padding: 0.5rem;
+  margin: 0rem auto;
+}
+.content-txt {
+  font-size: 1rem;
+  margin: auto;
+  text-align: center;
+}
+/* contact */
+.formulaire form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 400px;
+  margin: 7rem auto 11rem auto;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Style/Style.css" />
+    <link
+      rel="stylesheet"
+      media="only screen and (max-width: 800px)"
+      href="./Style/Style.800.css"
+    />
+    <link
+      rel="stylesheet"
+      media="only screen and (max-width: 500px)"
+      href="./Style/Style.400.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Lora&family=Sofia+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ec8db6b676.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Café Florette | Accueil</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2><a href="./INDEX.HTML">Café Florette</a></h2>
+        <ul>
+          <li><a href="./INDEX.HTML">Accueil</a></li>
+          <li><a href="./Where.HTML">Nous trouver</a></li>
+          <li><a class="active" href="./Contact.HTML">Nous contacter</a></li>
+        </ul>
+      </header>
+    </div>
+    <main class="formulaire">
+      <form action="#">
+        <h1>Une question ?</h1>
+        <div class="separator"></div>
+        <label for="name">Nom</label>
+        <input type="text" name="name" id="name" />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <label for="remarques">Remarques</label>
+        <textarea name="remarques" id="remarques" cols="30" rows="5"></textarea>
+      </form>
+    </main>
+    <footer>
+      <div>
+        <p>Copyright <i class="fa-solid fa-copyright"></i> Florette-2023</p>
+      </div>
+    </footer>
+  </body>
+</html>
